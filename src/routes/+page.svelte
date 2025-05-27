@@ -7,16 +7,55 @@
 	import CallToAction from "$lib/components/layout/CallToAction.svelte";
 	import AboutTeaser from "$lib/components/layout/AboutTeaser.svelte";
 	import LogoScroller from "$lib/components/layout/LogoScroller.svelte";
-	import Hero from "$lib/components/layout/hero-sections/Hero.svelte";
+	import CustomerCardHero from "$lib/components/layout/hero-sections/CustomerCardHero.svelte";
 </script>
 
-<Hero
-	title="Elevate your business with thoughtful design"
-	subtitle="Solutions that enhance user experience, and improve visual communication."
-	imageSrc="/sample.png"
-	generating
+<CustomerCardHero
+  centered={false}
+  title="The right tech. Every time."
+  subtitle="Probook helps home service teams send the best technician to every job, increase sales, and make dispatch simple."
+  customers={[
+    {
+      name: "Dani Dascher",
+      position: "Dispatcher at Auchinachie",
+      imageSrc: "/generated/image-a-friendly-woman-dispatcher-smiling-whil.webp",
+      quote: "With Probook, I trust every job gets matched to the right tech. Our board is finally calm."  
+    },
+    {
+      name: "Mike Sullivan",
+      position: "Lead Dispatcher at Auchinachie",
+      imageSrc: "/generated/image-an-experienced-male-technician-wearing-a.webp",
+      quote: "Probook made it easy to coach new dispatchers and keep sales up, even on our busiest days."
+    },
+    {
+      name: "Brandy Heesh",
+      position: "Operations Manager at Auchinachie",
+      imageSrc: "/generated/image-a-professional-woman-in-a-service-compan.webp",
+      quote: "We’re seeing higher flips, more installs, and happier customers since switching to Probook."
+    },
+    {
+      name: "Chris Holleran",
+      position: "Vice President and General Manager at Auchinachie Services",
+      imageSrc: "/generated/image-a-confident-male-operations-manager-stan.webp",
+      quote: "Probook helps us scale without the stress—and it’s simple for the whole team."
+    },
+    {
+      name: "Andrea Williams",
+      position: "Lead Dispatcher at Blake Brothers",
+      imageSrc: "/generated/image-a-friendly-female-lead-dispatcher-at-her.webp",
+      quote: "I depend on Probook every day. It’s made dispatching fast and accurate so I can focus on the customer."
+    }
+  ]}
 />
-<LogoScroller label="" generating />
+<LogoScroller
+	label="Trusted by industry leaders"
+	logoUrls={[
+		'https://logo.clearbit.com/onehourheatandair.com',
+		'https://logo.clearbit.com/benjaminfranklinplumbing.com',
+		'https://logo.clearbit.com/mistersparky.com',
+		'https://logo.clearbit.com/rescueairtx.com'
+	]}
+/>
 
 <Summary
 	generating
