@@ -15,35 +15,49 @@
 <Pricing />
 
 <Testimonials
-	testimonials={[
-		{
-			name: "Jane Smith",
-			position: "CTO",
-			company: "Tech Innovations",
-			quote:
-				"This solution transformed our workflow and increased productivity by 35% in just two months.",
-			image:
-				"https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80"
-		},
-		{
-			name: "John Doe",
-			position: "Director of Operations",
-			company: "Global Solutions",
-			quote:
-				"The implementation was seamless and the support team was exceptional throughout the process.",
-			image:
-				"https://images.unsplash.com/photo-1560250097-0b93528c311a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80"
-		},
-		{
-			name: "Sarah Johnson",
-			position: "Product Manager",
-			company: "Future Systems",
-			quote:
-				"We've tried multiple solutions, but this is the only one that perfectly addressed all our requirements.",
-			image:
-				"https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&estimonial-3.jpg"
-		}
-	]}
+  testimonials={[
+    {
+      name: "Santiago Alvarez",
+      position: "Lead Dispatcher",
+      company: "Atlas Comfort Services",
+      quote:
+        "We saw an immediate jump in revenue and my team can finally handle a full board without late nights. Investing in Probook paid off—fast.",
+      image: "/generated/image-professional-headshot-of-a-hispanic-male.webp"
+    },
+    {
+      name: "Imani Grant",
+      position: "Operations Manager",
+      company: "SureTemp HVAC",
+      quote:
+        "We worried about switching systems, but Probook made it easy. The ROI is clear. We save hours every week and can give customers better service.",
+      image: "/generated/image-professional-headshot-of-a-black-female-.webp"
+    },
+    {
+      name: "Ravi Anand",
+      position: "Owner",
+      company: "FlowMaster Plumbing",
+      quote:
+        "I hesitated at first, but Probook let us grow without hiring more staff. My dispatchers say it’s the simplest tech upgrade we’ve made.",
+      image: "/generated/image-professional-headshot-of-a-southeast-asi.webp"
+    }
+  ]}
 />
 
-<CallToAction />
+<CallToAction
+  title="Put the right tech on the right job. Every time."
+  subtitle="Make every call count—Probook does the heavy lifting."
+  description="Maximize revenue, minimize drive time, and let dispatchers work confidently. Join companies already saving hours and seeing more sales—without more stress or complex setup."
+  imageSrc="/generated/image-a-home-services-dispatcher-smiling-warml.webp"
+  callsToAction={[
+    {
+      href: '/demo',
+      label: 'Book a demo',
+      variant: 'primary'
+    },
+    {
+      href: '/contact',
+      label: 'Talk to George →',
+      variant: 'secondary'
+    }
+  ]}
+/>
