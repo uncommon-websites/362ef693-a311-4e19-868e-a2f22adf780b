@@ -155,7 +155,7 @@
 
 <AboutTeaser />
 <CallToAction
-  title="Smarter dispatching. Stronger results."
+  title="Smarter dispatching. Stronger. Yes."
   subtitle="Reduce workload, grow sales, and simplify dispatching"
   description="Get immediate results with a 2-day in-person launch and hands-on support. No disruption—just smarter dispatching from day one."
   imageSrc="/generated/image-a-cheerful-female-dispatcher-sitting-at-.webp"
