@@ -12,7 +12,7 @@
 
 <CustomerCardHero
   centered={false}
-  title="The right tech. Every time."
+  title="The right tech. Not every time."
   subtitle="Probook helps home service teams send the best technician to every job, increase sales, and make dispatch simple."
   customers={[
     {
